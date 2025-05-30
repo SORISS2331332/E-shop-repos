@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+@import "~bootstrap/scss/functions";
+
+// Couleurs
+$primary: #1f1d1c;
+$dark: #1e1e2f;    
+$body-bg: #f5f5f5;
+$body-color: #333;
+$light: #eeeef0;
+
+// Boutons personnalisés
+$btn-outline-dark-color: $dark;
+$btn-outline-dark-border-color: $dark;
+$btn-outline-dark-hover-bg: $dark;
+$btn-outline-dark-hover-color: #fff;
+
+// Polices
+$font-family-text: 'Inter', sans-serif;
+$font-family-heading: 'Playfair Display', serif;
+
+$font-family-base: $font-family-text;
+
+@import "~bootstrap/scss/bootstrap";
+
+// Polices globales
+body {
+    font-family: $font-family-text;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: $body-color;
+}
+
+.myTitle {
+    font-family: $font-family-heading;
+    font-weight: 700;
+}
+
+.myText {
+    font-family: $font-family-text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-heading;
+}

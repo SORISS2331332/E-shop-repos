@@ -1,0 +1,63 @@
+.wrapper {
+    background-color: #F8F9FA;
+    flex-grow: 1;
+    margin-top: 120px
+}
+
+.sidebar {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E9ECEF;
+    min-height: 100vh;
+}
+
+.activeLink {
+    color: #5E72E4 !important;
+    font-weight: 500;
+}
+
+.main {
+    background-color: #F8F9FA;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.iconWrapper {
+    background-color: rgba(94, 114, 228, 0.1);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.iconWrapperWarn {
+    background-color: rgba(255, 193, 7, 0.1);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.iconWrapperSuccess {
+    background-color: rgba(40, 167, 69, 0.1);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.chartCard {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.chartContainer {
+    height: 400px;
+    width: 100%;
+}

@@ -1,0 +1,61 @@
+-Header   #Issouf
+-Footer   #Sergio
+-Article  
+
+----Inscription (page) #Issouf
+
+
+
+----Connexion(page)     #Sergio
+
+
+
+----Accueil (page)      #Issouf
+    - Banner
+    - Categorie
+    - Choix
+    -ListeArticles
+    -MeilleursVentes
+    -Nouveautés
+
+
+-----Details(page)      #Sergio
+    -Notes
+    -AjoutNotes
+    -ListeCommentaires
+    -ArticlesSimilaires
+
+-----Paiement (page)    #Issouf
+    -ArticleCommande
+    -Total
+    -Etapes
+    -Panier
+    -Adresse
+    -ListesAdresses
+    -AjouterAdresse
+    -Livraison
+    -ResumeCommande
+    -Paiement
+
+-----Recherche(page)    #Sergio
+    -ListeArticles
+    -Marques
+    
+-----Favoris(page)      #Sergio
+    -ListeArticles
+
+
+-----Compte (page)      #Sergio
+     -Options-
+     -Profil
+     -ModifierProfil
+     -ListesAdresses
+     -Commandes
+
+
+-----Contact (page)     #Issouf
+    -Contacts
+    -ContactForm
+
+-----A Propos(page)     #Issouf
+    -Propos

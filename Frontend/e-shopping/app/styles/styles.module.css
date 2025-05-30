@@ -1,0 +1,569 @@
+@charset "UTF-8";
+/* début styles de la page à propos */
+.story h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.dataCenter .statCard {
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+.dataCenter .statCard:hover {
+  transform: translateY(-5px);
+}
+.dataCenter .highlight {
+  background-color: #db4444;
+  color: #ffffff;
+}
+.dataCenter .highlight p,
+.dataCenter .highlight h4 {
+  color: #ffffff;
+}
+.dataCenter .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.personnel img {
+  object-fit: cover;
+  border-radius: 8px;
+}
+.personnel h5 {
+  margin-bottom: 0;
+}
+.personnel .text-muted {
+  margin-bottom: 10px;
+}
+
+/* fin styles de la page à propos */
+/* debut styles de la page de adresse */
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 120px;
+  flex-grow: 1;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 300px;
+    margin: 80px 0 0 0;
+    padding: 20px;
+  }
+}
+
+/* fin styles de la page de adresse */
+/* debut styles du composant ArticleCard */
+.card {
+  border: 1px solid #eee;
+  padding: 16px;
+  position: relative;
+  background-color: #ffffff;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card .imageContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.card .imageContainer .image {
+  max-width: 100%;
+  height: 10rem;
+  object-fit: contain;
+}
+.card .iconButton {
+  background: #ffffff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  right: 8px;
+}
+.card .badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.card .badge.new {
+  background-color: #00ff66;
+  color: #000000;
+}
+.card .badge.discount {
+  display: none;
+}
+.card .details {
+  padding: 5px 0;
+}
+.card .linkArticle {
+  text-decoration: none;
+}
+.card .name,
+.card .categorie {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 4px;
+}
+.card .categorie {
+  color: green;
+}
+.card .priceRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card .price {
+  font-weight: bold;
+}
+.card .rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+}
+.card .reviews {
+  font-size: 12px;
+  color: #6c757d;
+}
+.card .cartBtn {
+  margin-top: 10px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .card .imageContainer .image {
+    height: 6rem;
+  }
+  .card .name,
+  .card .categorie {
+    font-size: 12px;
+  }
+  .card .price {
+    font-size: 13px;
+  }
+  .card .reviews {
+    font-size: 10px;
+  }
+  .card .cartBtn {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
+/* fin styles du composant ArticleCard */
+/* Debut des styles du composant ArticleList */
+.section {
+  margin: 50px 10px 10px 10px;
+  padding: 0 20px;
+}
+
+.linkArticle {
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.boutonVoirPlus {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  width: 25%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+.boutonVoirPlus:hover {
+  background-color: #0056b3;
+}
+.boutonVoirPlus:active {
+  transform: scale(0.98);
+}
+@media (max-width: 768px) {
+  .boutonVoirPlus {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.options div {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.options div h6 {
+  color: #000000;
+  font-size: 16px;
+  margin: 0;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .options div h6 {
+    font-size: 12px;
+  }
+}
+.options div.active h6 {
+  background-color: #111111;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/* Fin des styles du composant ArticleList */
+/* Debut des styles du composant banner */
+.bannerContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.iphoneSection {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  background: url("/images/iphone-14-banner.png") no-repeat center center/cover;
+}
+
+.iphoneOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ps5Block {
+  color: #000000;
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  background: url("/images/ps.jpeg") no-repeat center center/cover;
+}
+
+.airpodsBlock {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  background: url("/images/airpod.jpeg") no-repeat center center/cover;
+}
+
+.visionBlock {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  background: url("/images/vision.jpeg") no-repeat center center/cover;
+}
+
+.macbookBlock {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background: url("/images/macair.jpeg") no-repeat center center/cover;
+}
+
+.overlayText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .iphoneSection {
+    height: 40vh;
+  }
+  .ps5Block,
+  .airpodsBlock,
+  .visionBlock {
+    height: 25vh;
+  }
+  .macbookBlock {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .iphoneSection {
+    height: 15vh;
+  }
+  .ps5Block,
+  .airpodsBlock,
+  .visionBlock {
+    height: 10vh;
+  }
+  .macbookBlock {
+    height: 20vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .iphoneSection {
+    height: 15vh;
+  }
+  .ps5Block,
+  .airpodsBlock,
+  .visionBlock {
+    height: 10vh;
+  }
+  .macbookBlock {
+    display: none;
+  }
+}
+/* Footer banner */
+.showcase {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(135deg, #000000, #333333, #6c757d, #ffffff);
+}
+
+.cardFooter {
+  background: linear-gradient(150deg, #000000, #ffffff);
+  min-height: 100%;
+}
+
+.cardFooter p {
+  color: black;
+}
+
+.cardFooter:nth-child(4) {
+  background-color: #333333;
+  color: white;
+}
+
+.linkArticle {
+  text-decoration: none;
+}
+
+/* Fin des styles du composant banner */
+/* Debut des styles du composant category */
+.categorySection {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 1rem;
+}
+
+.categoryScroll {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.categoryScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollBtnLeft,
+.scrollBtnRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.scrollBtnLeft {
+  left: 0;
+}
+
+.scrollBtnRight {
+  right: 0;
+}
+
+.categoryItem {
+  flex: 0 0 auto;
+  width: 200px;
+  padding: 0 15px;
+}
+@media (max-width: 576px) {
+  .categoryItem {
+    width: 120px;
+    padding: 0 8px;
+  }
+  .categoryItem svg {
+    width: 24px;
+    height: 24px;
+  }
+  .categoryItem p {
+    font-size: 12px;
+  }
+}
+
+/* Fin des styles du composant category */
+/* Début des styles de la page contact et du composant header */
+.contactPage {
+  flex-grow: 1;
+  max-width: 850px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Fin des styles de la page contact et du composant header */
+/* Début des styles de la page de livraison et du composant LivraisonOption */
+.option {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eee;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.option.active {
+  border: 2px solid #000000;
+}
+
+.DeliveryContainer {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Fin des styles de la page de livraison et du composant LivraisonOption */
+/* Début des styles de la page de paiement et des composants */
+.resume {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.item img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.PayContainer {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.successPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+/* Fin des styles de la page de paiement et des composants */
+/* Début des styles de la page Panier et StepsIndicator */
+.cartItem {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+.cartItem .cartImg {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.cartSummary {
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  width: 100%;
+  margin: 10px;
+}
+@media (max-width: 768px) {
+  .steps {
+    max-width: 300px;
+    justify-content: start;
+    gap: 0rem;
+  }
+}
+
+/* Fin des styles de la page Panier */
+/* Début des styles de la page d'inscription */
+.haveAccount {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.redLink {
+  color: #db4444;
+  text-decoration: none;
+}
+.redLink:hover {
+  text-decoration: underline;
+}
+
+/* Fin des styles de la page d'inscription */
+
+/*# sourceMappingURL=styles.module.css.map */

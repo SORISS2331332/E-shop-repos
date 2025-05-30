@@ -1,0 +1,732 @@
+{
+  "utilisateurs": [
+    {
+      "id": "1af0",
+      "Email": "testi@gmail.com",
+      "Password": "Password@123",
+      "Nom": "sorgho",
+      "Prenom": "Issouf",
+      "Photo": "/images/defaultUser.png",
+      "adresse": {
+        "id": "7153",
+        "codeCivique": "123e",
+        "rue": "Rue de la Croix",
+        "ville": "Paris",
+        "pays": "France",
+        "codePostal": "75004"
+      },
+      "role": "Client",
+      "dateInscription": "2025-05-09"
+    },
+    {
+      "id": "9ed0",
+      "Email": "sergio@gmail.com",
+      "Password": "Sergio@2025",
+      "Nom": "PERE",
+      "Prenom": "Sergio",
+      "Photo": "/images/defaultUser.png",
+      "adresse": {
+        "id": "4176",
+        "codeCivique": "123",
+        "rue": "Rue de la Paix",
+        "ville": "Paris",
+        "pays": "France",
+        "codePostal": "ghjkl"
+      },
+      "role": "Admin",
+      "dateInscription": "2025-05-20"
+    },
+    {
+      "id": "0c96",
+      "Email": "grodiss212@gmail.com",
+      "Password": "Password@123",
+      "Nom": "Sorgho",
+      "Prenom": "Issouf",
+      "Photo": "/images/defaultUser.png",
+      "adresse": null,
+      "role": "Admin",
+      "dateInscription": "2025-05-09"
+    }
+  ],
+  "adresse": [
+    {
+      "id": "7153",
+      "codeCivique": "123e",
+      "rue": "Rue de la Croix",
+      "ville": "Paris",
+      "pays": "France",
+      "codePostal": "75004"
+    },
+    {
+      "id": "4176",
+      "codeCivique": "123",
+      "rue": "Rue de la Paix",
+      "ville": "Paris",
+      "pays": "France",
+      "codePostal": "ghjkl"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "nom": "iPhone 14 Pro",
+      "description": "Smartphone Apple avec écran Super Retina XDR de 6.1 pouces.",
+      "prix": "1100",
+      "categorie": "Smartphones",
+      "marque": "Apple",
+      "quantite": 19,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 2
+    },
+    {
+      "id": "2",
+      "nom": "Galaxy S23 Ultra",
+      "description": "Le flagship Samsung avec capteur photo 200 MP et S-Pen intégré.",
+      "prix": 1199,
+      "categorie": "Smartphones",
+      "marque": "Samsung",
+      "quantite": 40,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "3",
+      "nom": "iPad Air M1",
+      "description": "Tablette puissante avec puce Apple M1 et écran Liquid Retina.",
+      "prix": 749,
+      "categorie": "Tablettes",
+      "marque": "Apple",
+      "quantite": 18,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 2
+    },
+    {
+      "id": "4",
+      "nom": "Galaxy Tab S8",
+      "description": "Tablette Android haut de gamme avec écran AMOLED 120Hz.",
+      "prix": 849,
+      "categorie": "Tablettes",
+      "marque": "Samsung",
+      "quantite": 8,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 2
+    },
+    {
+      "id": "5",
+      "nom": "AirPods Pro 2",
+      "description": "Écouteurs sans fil avec réduction active du bruit.",
+      "prix": 299,
+      "categorie": "Casques",
+      "marque": "Apple",
+      "quantite": 30,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "6",
+      "nom": "Sony WH-1000XM5",
+      "description": "Casque Bluetooth avec la meilleure réduction de bruit du marché.",
+      "prix": 399,
+      "categorie": "Casques",
+      "marque": "Sony",
+      "quantite": 18,
+      "badge": "Old",
+      "ventes": 0
+    },
+    {
+      "id": "7",
+      "nom": "Galaxy Buds2 Pro",
+      "description": "Écouteurs compacts et confortables avec son Hi-Fi.",
+      "prix": 229,
+      "categorie": "Casques",
+      "marque": "Samsung",
+      "quantite": 22,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "8",
+      "nom": "Apple Watch Series 9",
+      "description": "Montre connectée avec suivi de la santé et écran Always-On.",
+      "prix": 499,
+      "categorie": "Montres",
+      "marque": "Apple",
+      "quantite": 25,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "9",
+      "nom": "Fitbit Versa 4",
+      "description": "Montre de fitness avec suivi du sommeil et des activités.",
+      "prix": 199,
+      "categorie": "Montres",
+      "marque": "Fitbit",
+      "quantite": 40,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "10",
+      "nom": "MacBook Air M2",
+      "description": "Ordinateur portable ultra-fin avec la puce Apple M2.",
+      "prix": 1299,
+      "categorie": "Ordinateurs",
+      "marque": "Apple",
+      "quantite": 8,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "11",
+      "nom": "Dell XPS 13",
+      "description": "Ultrabook avec écran InfinityEdge et performances premium.",
+      "prix": 1199,
+      "categorie": "Ordinateurs",
+      "marque": "Dell",
+      "quantite": 9,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "12",
+      "nom": "Lenovo ThinkPad X1 Carbon",
+      "description": "Portable pro léger et robuste avec sécurité renforcée.",
+      "prix": 1499,
+      "categorie": "Ordinateurs",
+      "marque": "Lenovo",
+      "quantite": 6,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "13",
+      "nom": "Logitech MX Master 3S",
+      "description": "Souris ergonomique sans fil pour le travail intensif.",
+      "prix": 129,
+      "categorie": "Accessoires",
+      "marque": "Logitech",
+      "quantite": 35,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "14",
+      "nom": "Samsung Smart Monitor M8",
+      "description": "Écran intelligent avec Smart Hub intégré pour la productivité.",
+      "prix": 699,
+      "categorie": "Ecrans",
+      "marque": "Samsung",
+      "quantite": 11,
+      "badge": "Old",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "15",
+      "nom": "Apple Magic Keyboard",
+      "description": "Clavier sans fil avec Touch ID intégré.",
+      "prix": 149,
+      "categorie": "Accessoires",
+      "marque": "Apple",
+      "quantite": 28,
+      "badge": "NEW",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "16",
+      "nom": "Nintendo Switch OLED",
+      "description": "Console de jeu portable avec écran OLED vibrant.",
+      "prix": 349,
+      "categorie": "Consoles",
+      "marque": "Nintendo",
+      "quantité": 16,
+      "badge": "NEW",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "17",
+      "nom": "PlayStation 5",
+      "description": "Console de salon dernière génération avec SSD ultra-rapide.",
+      "prix": 549,
+      "categorie": "Consoles",
+      "marque": "Sony",
+      "quantite": 10,
+      "badge": "NEW",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "18",
+      "nom": "GoPro HERO11 Black",
+      "description": "Caméra d’action avec stabilisation HyperSmooth 5.0.",
+      "prix": 429,
+      "categorie": "Cameras",
+      "marque": "GoPro",
+      "quantite": 13,
+      "badge": "NEW",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "19",
+      "nom": "Canon EOS R50",
+      "description": "Appareil photo hybride compact pour les créateurs.",
+      "prix": 799,
+      "categorie": "Cameras",
+      "marque": "Canon",
+      "quantite": 7,
+      "badge": "NEW",
+      "statut": "Disponible",
+      "ventes": 0
+    },
+    {
+      "id": "20",
+      "nom": "Kindle Paperwhite",
+      "description": "Liseuse avec écran anti-reflets et éclairage réglable.",
+      "prix": 149,
+      "categorie": "Accessoires",
+      "marque": "Amazon",
+      "quantite": 21,
+      "badge": "NEW",
+      "statut": "Disponible",
+      "ventes": 0
+    }
+  ],
+  "images": [
+    {
+      "articleId": "3",
+      "lien": "/images/ipad-air-m1.jpeg",
+      "id": "12df"
+    },
+    {
+      "articleId": "3",
+      "lien": "/images/iPad.jpg",
+      "id": "f71b"
+    },
+    {
+      "articleId": "3",
+      "lien": "/images/ipad2.jpg",
+      "id": "ec56"
+    },
+    {
+      "articleId": "3",
+      "lien": "/images/ipadpro12-profil.jpeg",
+      "id": "aafa"
+    },
+    {
+      "articleId": "4",
+      "lien": "/images/galaxy-tab-s8.jpeg",
+      "id": "60b5"
+    },
+    {
+      "articleId": "4",
+      "lien": "/images/galaxytaba7-face.jpeg",
+      "id": "cb95"
+    },
+    {
+      "articleId": "4",
+      "lien": "/images/galaxytaba7-profil.jpeg",
+      "id": "eeb7"
+    },
+    {
+      "articleId": "4",
+      "lien": "/images/galaxy-tab-s8.jpeg",
+      "id": "ff03"
+    },
+    {
+      "articleId": "5",
+      "lien": "/images/airpods-pro-2.jpeg",
+      "id": "5c6d"
+    },
+    {
+      "articleId": "5",
+      "lien": "/images/airpodspro-boite.jpeg",
+      "id": "8199"
+    },
+    {
+      "articleId": "5",
+      "lien": "/images/airpodspro-portes.jpeg",
+      "id": "e680"
+    },
+    {
+      "articleId": "5",
+      "lien": "/images/airpods-pro-2.jpeg",
+      "id": "69de"
+    },
+    {
+      "articleId": "6",
+      "lien": "/images/sony-wh-1000xm5.jpeg",
+      "id": "3f5f"
+    },
+    {
+      "articleId": "6",
+      "lien": "/images/sony-wh-1000xm5.jpeg",
+      "id": "c976"
+    },
+    {
+      "articleId": "6",
+      "lien": "/images/sony-wh-1000xm5.jpeg",
+      "id": "14fe"
+    },
+    {
+      "articleId": "6",
+      "lien": "/images/sony-wh-1000xm5.jpeg",
+      "id": "5ca0"
+    },
+    {
+      "articleId": "7",
+      "lien": "/images/galaxy-buds2-pro.jpeg",
+      "id": "86e1"
+    },
+    {
+      "articleId": "7",
+      "lien": "/images/galaxy-buds2-pro.jpeg",
+      "id": "1b5a"
+    },
+    {
+      "articleId": "7",
+      "lien": "/images/galaxy-buds2-pro.jpeg",
+      "id": "b92a"
+    },
+    {
+      "articleId": "7",
+      "lien": "/images/galaxy-buds2-pro.jpeg",
+      "id": "cc46"
+    },
+    {
+      "articleId": "8",
+      "lien": "/images/apple-watch-series-9.jpeg",
+      "id": "d588"
+    },
+    {
+      "articleId": "8",
+      "lien": "/images/apple-watch-series-9.jpeg",
+      "id": "0c91"
+    },
+    {
+      "articleId": "8",
+      "lien": "/images/apple-watch-series-9.jpeg",
+      "id": "9cee"
+    },
+    {
+      "articleId": "8",
+      "lien": "/images/apple-watch-series-9.jpeg",
+      "id": "9eed"
+    },
+    {
+      "articleId": "9",
+      "lien": "/images/fitbit-versa-4.jpeg",
+      "id": "84b2"
+    },
+    {
+      "articleId": "9",
+      "lien": "/images/fitbit-versa-4.jpeg",
+      "id": "551d"
+    },
+    {
+      "articleId": "9",
+      "lien": "/images/fitbit-versa-4.jpeg",
+      "id": "f2e7"
+    },
+    {
+      "articleId": "9",
+      "lien": "/images/fitbit-versa-4.jpeg",
+      "id": "15d7"
+    },
+    {
+      "articleId": "10",
+      "lien": "/images/macbook-air-m2.jpeg",
+      "id": "e941"
+    },
+    {
+      "articleId": "10",
+      "lien": "/images/macbook-air-m2.jpeg",
+      "id": "a5d6"
+    },
+    {
+      "articleId": "10",
+      "lien": "/images/macbook-air-m2.jpeg",
+      "id": "d3dd"
+    },
+    {
+      "articleId": "10",
+      "lien": "/images/macbook-air-m2.jpeg",
+      "id": "9312"
+    },
+    {
+      "articleId": "11",
+      "lien": "/images/dell-xps-13.jpeg",
+      "id": "a6f9"
+    },
+    {
+      "articleId": "11",
+      "lien": "/images/dell-xps-13.jpeg",
+      "id": "4ef3"
+    },
+    {
+      "articleId": "11",
+      "lien": "/images/dell-xps-13.jpeg",
+      "id": "92f8"
+    },
+    {
+      "articleId": "11",
+      "lien": "/images/dell-xps-13.jpeg",
+      "id": "a918"
+    },
+    {
+      "articleId": "12",
+      "lien": "/images/thinkpad-x1-carbon.jpeg",
+      "id": "e37e"
+    },
+    {
+      "articleId": "12",
+      "lien": "/images/thinkpad-x1-carbon.jpeg",
+      "id": "1963"
+    },
+    {
+      "articleId": "12",
+      "lien": "/images/thinkpad-x1-carbon.jpeg",
+      "id": "2d6f"
+    },
+    {
+      "articleId": "12",
+      "lien": "/images/thinkpad-x1-carbon.jpeg",
+      "id": "e60e"
+    },
+    {
+      "articleId": "13",
+      "lien": "/images/mx-master-3s.jpeg",
+      "id": "b7c1"
+    },
+    {
+      "articleId": "13",
+      "lien": "/images/mx-master-3s.jpeg",
+      "id": "729c"
+    },
+    {
+      "articleId": "13",
+      "lien": "/images/mx-master-3s.jpeg",
+      "id": "d2d7"
+    },
+    {
+      "articleId": "13",
+      "lien": "/images/mx-master-3s.jpeg",
+      "id": "2cba"
+    },
+    {
+      "articleId": "14",
+      "lien": "/images/smart-monitor-m8.jpeg",
+      "id": "12ce"
+    },
+    {
+      "articleId": "14",
+      "lien": "/images/smart-monitor-m8.jpeg",
+      "id": "0838"
+    },
+    {
+      "articleId": "14",
+      "lien": "/images/smart-monitor-m8.jpeg",
+      "id": "5db6"
+    },
+    {
+      "articleId": "14",
+      "lien": "/images/smart-monitor-m8.jpeg",
+      "id": "d46f"
+    },
+    {
+      "articleId": "15",
+      "lien": "/images/magic-keyboard.jpeg",
+      "id": "1ed6"
+    },
+    {
+      "articleId": "15",
+      "lien": "/images/magic-keyboard.jpeg",
+      "id": "4a3e"
+    },
+    {
+      "articleId": "15",
+      "lien": "/images/magic-keyboard.jpeg",
+      "id": "f961"
+    },
+    {
+      "articleId": "15",
+      "lien": "/images/magic-keyboard.jpeg",
+      "id": "b485"
+    },
+    {
+      "articleId": "15",
+      "lien": "/images/magic-keyboard.jpeg",
+      "id": "1b74"
+    },
+    {
+      "articleId": "16",
+      "lien": "/images/nintendo-switch-oled.jpeg",
+      "id": "0223"
+    },
+    {
+      "articleId": "16",
+      "lien": "/images/nintendo-switch-oled.jpeg",
+      "id": "305c"
+    },
+    {
+      "articleId": "16",
+      "lien": "/images/nintendo-switch-oled.jpeg",
+      "id": "205a"
+    },
+    {
+      "articleId": "16",
+      "lien": "/images/nintendo-switch-oled.jpeg",
+      "id": "a76d"
+    },
+    {
+      "articleId": "17",
+      "lien": "/images/playstation-5.jpeg",
+      "id": "2949"
+    },
+    {
+      "articleId": "17",
+      "lien": "/images/playstation-5.jpeg",
+      "id": "428b"
+    },
+    {
+      "articleId": "17",
+      "lien": "/images/playstation-5.jpeg",
+      "id": "3b77"
+    },
+    {
+      "articleId": "17",
+      "lien": "/images/playstation-5.jpeg",
+      "id": "813c"
+    },
+    {
+      "articleId": "18",
+      "lien": "/images/gopro-hero11.jpeg",
+      "id": "5417"
+    },
+    {
+      "articleId": "18",
+      "lien": "/images/gopro-hero11.jpeg",
+      "id": "fac7"
+    },
+    {
+      "articleId": "18",
+      "lien": "/images/gopro-hero11.jpeg",
+      "id": "37b4"
+    },
+    {
+      "articleId": "18",
+      "lien": "/images/gopro-hero11.jpeg",
+      "id": "0376"
+    },
+    {
+      "articleId": "19",
+      "lien": "/images/canon-eos-r50.jpeg",
+      "id": "21be"
+    },
+    {
+      "articleId": "19",
+      "lien": "/images/canon-eos-r50.jpeg",
+      "id": "90d7"
+    },
+    {
+      "articleId": "19",
+      "lien": "/images/canon-eos-r50.jpeg",
+      "id": "6c98"
+    },
+    {
+      "articleId": "19",
+      "lien": "/images/canon-eos-r50.jpeg",
+      "id": "a340"
+    },
+    {
+      "articleId": "20",
+      "lien": "/images/kindle-paperwhite.jpeg",
+      "id": "78c3"
+    },
+    {
+      "articleId": "20",
+      "lien": "/images/kindle-paperwhite.jpeg",
+      "id": "a7f1"
+    },
+    {
+      "articleId": "20",
+      "lien": "/images/kindle-paperwhite.jpeg",
+      "id": "ab10"
+    },
+    {
+      "articleId": "20",
+      "lien": "/images/kindle-paperwhite.jpeg",
+      "id": "fdc4"
+    },
+    {
+      "id": "d699",
+      "articleId": "1",
+      "lien": "/images/iphone-14-pro.jpg"
+    },
+    {
+      "id": "e1f5",
+      "articleId": "1",
+      "lien": "/images/iphone14.jpg"
+    },
+    {
+      "id": "a8b2",
+      "articleId": "1",
+      "lien": "/images/Iphone14-or.jpg"
+    },
+    {
+      "id": "bd99",
+      "articleId": "1",
+      "lien": "/images/Iphone14pro-bl.jpg"
+    },
+    {
+      "id": "f687",
+      "articleId": "2",
+      "lien": "/images/galaxy-s23-ultra.jpeg"
+    },
+    {
+      "id": "4bab",
+      "articleId": "2",
+      "lien": "/images/sumsung.jpg"
+    },
+    {
+      "id": "f59e",
+      "articleId": "2",
+      "lien": "/images/sumsung24.jpg"
+    },
+    {
+      "id": "e904",
+      "articleId": "2",
+      "lien": "/images/galaxy-s23-ultra.jpeg"
+    }
+  ],
+  "commandes": [
+   
+  ],
+  "panier": [
+   
+  ],
+  "favoris": [
+    
+  ],
+  "commandeArticle": [
+   
+  ],
+  "avis": [
+    
+  ]
+}

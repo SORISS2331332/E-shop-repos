@@ -1,0 +1,29 @@
+-Header #Sergio
+
+-----Accueil(page) #Issouf
+
+----Articles (page)     #Sergio
+    -Categories
+    -ListeArticles
+
+----AjouterArticle/Modifier   #Issouf
+
+
+-----Details(page)  #deja fait
+    -ModifierArticle
+    -Notes
+    -ListeCommentaires
+
+
+-----Recherche(page)    #deja fait
+    -ListeArticles
+    -Marques
+    
+    
+
+-----Compte (page) #deja fait
+     -Options
+     -Profil
+     -ModifierProfil
+   
+

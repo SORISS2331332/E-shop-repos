@@ -1,0 +1,225 @@
+    const articles = [
+        {
+        id: 1,
+        nom: "iPhone 14 Pro",
+        description: "Smartphone Apple avec écran Super Retina XDR de 6.1 pouces.",
+        prix: 1099,
+        catégorie: "Smartphone",
+        image: "/images/iphone-14-pro.jpg",
+        marque: "Apple",
+        quantité: 15
+        },
+        {
+        id: 2,
+        nom: "Galaxy S23 Ultra",
+        description: "Le flagship Samsung avec capteur photo 200 MP et S-Pen intégré.",
+        prix: 1199,
+        catégorie: "Smartphone",
+        image: "/images/galaxy-s23-ultra.jpg",
+        marque: "Samsung",
+        quantité: 12
+        },
+        {
+        id: 3,
+        nom: "iPad Air M1",
+        description: "Tablette puissante avec puce Apple M1 et écran Liquid Retina.",
+        prix: 749,
+        catégorie: "Tablette",
+        image: "/images/ipad-air-m1.jpg",
+        marque: "Apple",
+        quantité: 20
+        },
+        {
+        id: 4,
+        nom: "Galaxy Tab S8",
+        description: "Tablette Android haut de gamme avec écran AMOLED 120Hz.",
+        prix: 849,
+        catégorie: "Tablette",
+        image: "/images/galaxy-tab-s8.jpg",
+        marque: "Samsung",
+        quantité: 10
+        },
+        {
+        id: 5,
+        nom: "AirPods Pro 2",
+        description: "Écouteurs sans fil avec réduction active du bruit.",
+        prix: 299,
+        catégorie: "Écouteurs",
+        image: "/images/airpods-pro-2.jpg",
+        marque: "Apple",
+        quantité: 30
+        },
+        {
+        id: 6,
+        nom: "Sony WH-1000XM5",
+        description: "Casque Bluetooth avec la meilleure réduction de bruit du marché.",
+        prix: 399,
+        catégorie: "Casque",
+        image: "/images/sony-wh-1000xm5.jpg",
+        marque: "Sony",
+        quantité: 18
+        },
+        {
+        id: 7,
+        nom: "Galaxy Buds2 Pro",
+        description: "Écouteurs compacts et confortables avec son Hi-Fi.",
+        prix: 229,
+        catégorie: "Écouteurs",
+        image: "/images/galaxy-buds2-pro.jpg",
+        marque: "Samsung",
+        quantité: 22
+        },
+        {
+        id: 8,
+        nom: "Apple Watch Series 9",
+        description: "Montre connectée avec suivi de la santé et écran Always-On.",
+        prix: 499,
+        catégorie: "Montre connectée",
+        image: "/images/apple-watch-series-9.jpg",
+        marque: "Apple",
+        quantité: 25
+        },
+        {
+        id: 9,
+        nom: "Fitbit Versa 4",
+        description: "Montre de fitness avec suivi du sommeil et des activités.",
+        prix: 199,
+        catégorie: "Montre connectée",
+        image: "/images/fitbit-versa-4.jpg",
+        marque: "Fitbit",
+        quantité: 40
+        },
+        {
+        id: 10,
+        nom: "MacBook Air M2",
+        description: "Ordinateur portable ultra-fin avec la puce Apple M2.",
+        prix: 1299,
+        catégorie: "Ordinateur portable",
+        image: "/images/macbook-air-m2.jpg",
+        marque: "Apple",
+        quantité: 8
+        },
+        {
+        id: 11,
+        nom: "Dell XPS 13",
+        description: "Ultrabook avec écran InfinityEdge et performances premium.",
+        prix: 1199,
+        catégorie: "Ordinateur portable",
+        image: "/images/dell-xps-13.jpg",
+        marque: "Dell",
+        quantité: 9
+        },
+        {
+        id: 12,
+        nom: "Lenovo ThinkPad X1 Carbon",
+        description: "Portable pro léger et robuste avec sécurité renforcée.",
+        prix: 1499,
+        catégorie: "Ordinateur portable",
+        image: "/images/thinkpad-x1-carbon.jpg",
+        marque: "Lenovo",
+        quantité: 6
+        },
+        {
+        id: 13,
+        nom: "Logitech MX Master 3S",
+        description: "Souris ergonomique sans fil pour le travail intensif.",
+        prix: 129,
+        catégorie: "Accessoire",
+        image: "/images/mx-master-3s.jpg",
+        marque: "Logitech",
+        quantité: 35
+        },
+        {
+        id: 14,
+        nom: "Samsung Smart Monitor M8",
+        description: "Écran intelligent avec Smart Hub intégré pour la productivité.",
+        prix: 699,
+        catégorie: "Moniteur",
+        image: "/images/smart-monitor-m8.jpg",
+        marque: "Samsung",
+        quantité: 14
+        },
+        {
+        id: 15,
+        nom: "Apple Magic Keyboard",
+        description: "Clavier sans fil avec Touch ID intégré.",
+        prix: 149,
+        catégorie: "Accessoire",
+        image: "/images/magic-keyboard.jpg",
+        marque: "Apple",
+        quantité: 28
+        },
+        {
+        id: 16,
+        nom: "Nintendo Switch OLED",
+        description: "Console de jeu portable avec écran OLED vibrant.",
+        prix: 349,
+        catégorie: "Console",
+        image: "/images/nintendo-switch-oled.jpg",
+        marque: "Nintendo",
+        quantité: 16
+        },
+        {
+        id: 17,
+        nom: "PlayStation 5",
+        description: "Console de salon dernière génération avec SSD ultra-rapide.",
+        prix: 549,
+        catégorie: "Console",
+        image: "/images/playstation-5.jpg",
+        marque: "Sony",
+        quantité: 10
+        },
+        {
+        id: 18,
+        nom: "GoPro HERO11 Black",
+        description: "Caméra d’action avec stabilisation HyperSmooth 5.0.",
+        prix: 429,
+        catégorie: "Caméra",
+        image: "/images/gopro-hero11.jpg",
+        marque: "GoPro",
+        quantité: 13
+        },
+        {
+        id: 19,
+        nom: "Canon EOS R50",
+        description: "Appareil photo hybride compact pour les créateurs.",
+        prix: 799,
+        catégorie: "Appareil photo",
+        image: "/images/canon-eos-r50.jpg",
+        marque: "Canon",
+        quantité: 7
+        },
+        {
+        id: 20,
+        nom: "Kindle Paperwhite",
+        description: "Liseuse avec écran anti-reflets et éclairage réglable.",
+        prix: 149,
+        catégorie: "Liseuse",
+        image: "/images/kindle-paperwhite.jpg",
+        marque: "Amazon",
+        quantité: 21
+        }
+    ];
+  
+
+  iphone-14-pro.jpg  
+  galaxy-s23-ultra.jpg  
+  ipad-air-m1.jpg  
+  galaxy-tab-s8.jpg  
+  airpods-pro-2.jpg  
+  sony-wh-1000xm5.jpg  
+  galaxy-buds2-pro.jpg  
+  apple-watch-series-9.jpg  
+  fitbit-versa-4.jpg  
+  macbook-air-m2.jpg  
+  dell-xps-13.jpg  
+  thinkpad-x1-carbon.jpg  
+  mx-master-3s.jpg  
+  smart-monitor-m8.jpg  
+  magic-keyboard.jpg  
+  nintendo-switch-oled.jpg  
+  playstation-5.jpg  
+  gopro-hero11.jpg  
+  canon-eos-r50.jpg  
+  kindle-paperwhite.jpg  
+  

@@ -1,0 +1,49 @@
+{
+  "name": "e-shopping",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "json-server": "json-server --watch db.json --port 5001",
+    "watch-css": "sass --watch app/styles/styles.module.scss:app/styles/styles.module.css"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^3.6.0",
+    "@stripe/stripe-js": "^7.2.0",
+    "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.13.1",
+    "chart.js": "^4.4.9",
+    "cloudinary": "^2.6.1",
+    "fontkit": "^2.0.4",
+    "get-stream": "^9.0.1",
+    "jquery": "^3.7.1",
+    "jquery-ui-dist": "^1.13.3",
+    "json-server": "^1.0.0-beta.3",
+    "lucide-react": "^0.503.0",
+    "next": "15.3.1",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^6.10.1",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.17.0",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-bootstrap-icons": "^1.11.6",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-pro-sidebar": "^1.1.0",
+    "stripe": "^18.0.0",
+    "uuid": "^11.1.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}
