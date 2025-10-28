@@ -144,7 +144,7 @@ export default function ArticleCard({ product, estDisponible }) {
     return (
             <>
             {
-                (product && image ) ? (
+                (product && image ) && (
                     <Col xs={6} sm={6} md={4} lg={3} className="mb-4">
                         <div className={styles.card + ' bg-light'} >
                             <div className='d-flex'>
@@ -211,8 +211,6 @@ export default function ArticleCard({ product, estDisponible }) {
                             
                         </div>
                     </Col>
-                ):(
-                    <Loading />
                 )
             }
             </>
